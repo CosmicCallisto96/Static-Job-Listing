@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+.top-bar {
+  font-family: "Spartan", sans-serif;
+  background-color: white;
+  width: 81%;
+  position: absolute;
+  margin: -85px 8.5%;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 12px -6px rgba(123, 133, 133, 0.61);
+  -moz-box-shadow: 10px 10px 12px -6px rgba(123, 133, 133, 0.61);
+  box-shadow: 10px 10px 12px -6px rgba(123, 133, 133, 0.61);
+  z-index: 99;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  justify-content: space-between;
+}
+
+.top-bar .div {
+  display: flex;
+}
+
+.top-bar .div .space {
+  padding-right: 15px;
+  display: flex;
+}
+
+.top-bar .div .space .tag {
+  font-size: 14px;
+  color: #5ba4a4;
+  background-color: #eef6f6;
+  border-radius: 3px 0px 0px 3px;
+  display: flex;
+  line-height: 28px;
+  width: fit-content;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.top-bar .div .space button {
+  padding: 5px;
+  border: none;
+  height: 24px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 0 3px 3px 0;
+  display: flex;
+  align-items: center;
+  background-color: #5ba4a4;
+}
+
+.top-bar .div .space button img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.top-bar .div .space button:hover {
+  background-color: black;
+}
+
+.top-bar .link {
+  font-family: "Spartan", sans-serif;
+  color: #5ba4a4;
+  font-weight: 700;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.top-bar .link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}

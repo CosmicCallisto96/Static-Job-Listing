@@ -1,0 +1,36 @@
+$Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+$Light-Grayish-Cyan-Background: hsl(180, 52%, 96%);
+$Light-Grayish-Cyan-Filter-Tablets: hsl(180, 31%, 95%);
+$Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+$Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+
+.header
+{
+//display: flex;
+height:120px;
+.header-img
+{
+    height: 100%;
+    width: 100%;
+   background-position: center;
+  background-size: cover;
+  // object-fit: cover;
+    background-image: url("../List/images/bg-header-desktop.svg");
+    background-color: $Desaturated-Dark-Cyan;
+}
+}
+@media only screen and (max-width: 375px) {
+    .header
+    {
+    //display: flex;
+    height:120px;
+    .header-img
+    {
+        height: 100%;
+        width: 100%;
+        //background-position: right;
+        background-image: url("../List/images/bg-header-mobile.svg");
+        background-color: $Desaturated-Dark-Cyan;
+    }
+    }
+  }
