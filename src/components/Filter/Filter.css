@@ -11,15 +11,19 @@
   -moz-box-shadow: 10px 10px 12px -6px rgba(123, 133, 133, 0.61);
   box-shadow: 10px 10px 12px -6px rgba(123, 133, 133, 0.61);
   z-index: 99;
-  height: 50px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
-  padding-left: 25px;
+  padding-left: 2.3%;
   justify-content: space-between;
 }
 
 .top-bar .div {
   display: flex;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 .top-bar .div .space {
