@@ -125,6 +125,7 @@
   border-radius: 4px;
   margin-left: 0px;
   margin-right: 15px;
+  margin-bottom: 10px;
   cursor: pointer;
   background-color: #effafa;
   border: none;
@@ -261,6 +262,7 @@
     height: 20px;
     color: #5ba4a4;
     border-radius: 4px;
+    margin-bottom: 10px;
     cursor: pointer;
     background-color: #effafa;
     border: none;
@@ -392,6 +394,7 @@
     height: 20px;
     color: #5ba4a4;
     border-radius: 4px;
+    margin-bottom: 10px;
     cursor: pointer;
     background-color: #effafa;
     border: none;

@@ -16,6 +16,7 @@ class Filter extends Component {
   {
     if(this.state.check.length===1)
     {
+      
       this.props.history.push(`/`);
     }
     this.setState({check:this.state.check.filter(value=>value!==val)});
